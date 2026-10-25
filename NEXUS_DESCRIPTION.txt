@@ -1,0 +1,88 @@
+[size=5][b]Electro's Tweaks[/b][/size]
+
+My personal overhaul of Hades progression: Level 10 Weapon Aspects, Level 5 Keepsakes, and double the talents on the Mirror of Night.
+
+Every change is now its own option, so you can take only the parts you want. Options are turned on and off in one settings file ([font=Courier New]ElectroTweaksConfig.lua[/font]). The mod is rebuilt for the latest version of Hades and no longer replaces the game's own scripts and text, so none of Supergiant's later fixes are lost.
+
+This mod went unmaintained for years while Supergiant kept updating the game. I've come back to it and used an LLM to help fix the bugs caused by the mismatch between the original mod and the current version of the game, and to split the changes into separate options.
+
+Found a bug or have a request? Open an issue or pull request on GitHub: [url=https://github.com/Electromasta/hadestweaks]https://github.com/Electromasta/hadestweaks[/url]
+
+[size=4][b]Options[/b][/size]
+
+[size=3][b]Weapon Aspects[/b][/size] ([font=Courier New]AspectLevels[/font], off by default)
+[list]
+[*]Weapons can be upgraded from level 1 to level 10, with costs: 0, 1, 1, 2, 2, 3, 3, 4, 4, 5
+[*]Level 1 of every aspect costs 0, to encourage experimenting
+[*]Level 1 -> Level 5 costs 6 Titan Blood total, about the same as vanilla
+[*]Level 1 -> Level 10 costs 25 Titan Blood total, a significant investment for greater values than vanilla
+[*]Every aspect, including the hidden ones, keeps scaling past level 5
+[*]Aspect of Chiron is reworked to fit 10 levels: 3 Special shots at level 1, +1 per level, up to 12
+[/list]
+[quote][b]Save warning:[/b] aspect levels 6 to 10 are stored in your save, and the unmodded game cannot handle them. That is why this option is off by default. To turn it off later, or to uninstall, set it to [font=Courier New]false[/font] and load your save: every aspect above level 5 drops to level 5 and the Titan Blood spent on levels 6 to 10 is refunded. See Uninstall below.[/quote]
+
+[size=3][b]Zagreus Aspect Rebalance[/b][/size] ([font=Courier New]ZagreusAspects[/font], on by default)
+[list]
+[*]Sword starts at 10% Attack and Move Speed and scales to 35%
+[*]Spear starts at 5% Critical Chance, Throw Range, and Damage and scales to 25%
+[*]Shield starts at +5 base damage and 5% Damage Reduction and scales to +20 / 20%
+[*]Bow starts at 5% Critical Chance and Dodge Chance and scales to 20%
+[*]Fist starts at 10% Damage and Dodge Chance and scales to 30%
+[*]Rail starts at +5 ammo and 5% damage and scales to +20 / 20%
+[/list]
+The top values are at level 10; without [font=Courier New]AspectLevels[/font] the aspects stop at level 5, about halfway. Safe to turn on or off at any time.
+
+[size=3][b]Keepsakes[/b][/size] ([font=Courier New]KeepsakeLevels[/font], on by default)
+[list]
+[*]Keepsakes scale to level 5, taking 75 / 100 more chambers to reach level 4 / 5
+[*]Levels show with the game's 5-rank keepsake icons
+[/list]
+Safe to turn on or off at any time; keepsakes just show level 3 again when off.
+
+[size=3][b]God Keepsakes[/b][/size] ([font=Courier New]GodKeepsakeRarity[/font], on by default)
+Keepsakes that force a god's boon (Thunder Signet, Owl Pendant, ...) also give an extra chance for Epic and Legendary boons from that god:
+[list]
+[*]Rare: 7% per level, up to 35%
+[*]Epic: 4% per level, up to 20%
+[*]Legendary: 3% per level, up to 15%
+[/list]
+Safe to turn on or off at any time.
+
+[size=3][b]Mirror of Night[/b][/size] ([font=Courier New]MirrorTalents[/font], on by default)
+[list]
+[*]Doubles the talents on the Mirror of Night
+[*]Base talents are unchanged
+[*]New talents are significantly more expensive
+[/list]
+Safe to turn off: the next time you load, talents above the normal maximum are lowered and their Darkness is refunded.
+
+[size=3][b]Miscellaneous[/b][/size] (optional file)
+[list]
+[*]Rail has 20 base ammo so I don't end up shooting myself when I use it. Install the [font=Courier New]Optional\Rail 20 Ammo[/font] folder to get it; delete or verify the game files to remove it.
+[/list]
+
+[size=4][b]Install[/b][/size]
+[list=1]
+[*]Back up your save folder: [font=Courier New]Documents\Saved Games\Hades[/font] (Windows).
+[*]Open the Hades install folder (Steam: right-click Hades > Manage > Browse local files).
+[*]Unzip the mod and copy its [font=Courier New]Content[/font] folder into the Hades folder, replacing files when asked.
+[*]Optional: also copy [font=Courier New]Optional\Rail 20 Ammo\Content[/font] the same way.
+[*]To choose which changes you get, open [font=Courier New]Content\Scripts\ElectroTweaksConfig.lua[/font] in a text editor, set each option to [font=Courier New]true[/font] or [font=Courier New]false[/font], and restart the game.
+[/list]
+Updating from an older version of Electro's Tweaks? Verify the game files in Steam first (right-click Hades > Properties > Installed Files > Verify integrity), then install.
+
+You no longer need to respec the Mirror of Night before installing.
+
+[size=4][b]Uninstall[/b][/size]
+[quote][b]Weapon Aspects warning:[/b] if you used [font=Courier New]AspectLevels[/font], you must do steps 1 and 2 before removing the mod. Aspect levels 6 to 10 are saved in your profile, and weapons over level 5 get real cranky in the unmodded game.[/quote]
+[list=1]
+[*]In [font=Courier New]ElectroTweaksConfig.lua[/font], set every option to [font=Courier New]false[/font].
+[*]Start the game, load your save, and walk into the next room (or out of the House into a new escape attempt) so the game saves. Aspects drop to level 5 and Mirror talents to their normal maximum, and the Titan Blood and Darkness you spent on the extra levels is refunded.
+[*]Quit, then verify the game files in Steam to restore the original files, and delete [font=Courier New]Content\Scripts\ElectroTweaks.lua[/font], [font=Courier New]ElectroTweaksConfig.lua[/font] and the [font=Courier New]Content\Scripts\ElectroTweaks[/font] folder if they are still there.
+[/list]
+
+[size=4][b]Notes[/b][/size]
+[list]
+[*]Tooltips for the reworked aspects and keepsakes are in English only; other languages show the game's normal text.
+[*]Not compatible with other mods that replace [font=Courier New]RoomManager.lua[/font] or [font=Courier New]HelpText.en.sjson[/font].
+[/list]

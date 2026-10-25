@@ -1,0 +1,13 @@
+{
+	Texts = [
+		"_append"
+		{
+			Id = "Keepsake_Level_4"
+			DisplayName = "rank   {!Icons.AwardRank4}"
+		}
+		{
+			Id = "Keepsake_Level_5"
+			DisplayName = "rank   {!Icons.AwardRank5}"
+		}
+	]
+}

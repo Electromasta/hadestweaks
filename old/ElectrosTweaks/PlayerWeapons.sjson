@@ -1,0 +1,107 @@
+{
+  Weapons = {
+	  "_sequence" = true
+	  34 = {
+		  "_replace" = 1
+			Name = "GunWeapon"
+			InheritFrom = "1_BaseDamagingWeapon"
+			Control = "Attack2"
+			DisallowedControl = "null"
+			Type = "GUN"
+			Projectile = "GunWeapon"
+			ChargeSoundFadeTime = 0.25
+			RootOwnerWhileFiring = false
+			BlockMoveInput = false
+			CancelMovement = false
+			ChargeCancelMovement = false
+			FullyAutomatic = true
+			FireSound = "null"
+			AutoLock = true
+			AutoLockRange = 710
+			AutoLockArcDistance = 360
+			FireFx = "GunFire"
+			ChargeTimeFrames = 4
+			ChargeStartAnimation = "null"
+			LockTriggerForCharge = true
+			FireGraphic = "ZagreusGunFire"
+			LockTriggerTransferFromOnSwap = false
+			FailedToFireCooldownAnimation = "ZagreusGunFireEmpty"
+			FailedToFireCooldownDuration = 0.15
+			TriggerReleaseGraphic = "null"
+			FireOnRelease = false
+			NumProjectiles = 1
+			Cooldown = 0.1
+			Spread = 0
+			Scatter = 35
+			ScatterSubside = 170
+			ScatterCap = 35
+			TriggerTapIgnoresCooldown = false
+			MaxAmmo = 20
+			CanCancelDisables = false
+			AllowExternalForceRelease = false
+			TriggersStoredAmmoVulnerability = true
+			SetCompleteAngleOnFire = true
+			SetCompleteAngleOnCharge = false
+			ClearFireRequestOnChargeCancel = false
+			Effects = [
+				{
+				Name = "GunDisable"
+				DurationFrames = 4
+				DisableMove = true
+				DisableRotate = false
+				DisableAttack = false
+				Cancelable = false
+				RequestTriggerLock = true
+				}
+				{
+				Name = "GunDisableCancellable"
+				DurationFrames = 8
+				DisableMove = true
+				DisableRotate = false
+				DisableAttack = false
+				Cancelable = true
+				RequestTriggerLock = true
+				}
+				{
+				Trigger = "Charging"
+				Name = "GunSelfSpeed"
+				Duration = 0.02
+				DisableMove = true
+				Active = true
+				CanAffectInvulnerable = true
+				}
+				{
+				Trigger = "Charging"
+				Name = "GunSelfHalt"
+				Type = "GRIP"
+				Duration = 0.02
+				Modifier = 1.0
+				HaltOnEnd = true
+				Active = true
+				CanAffectInvulnerable = true
+				}
+
+				{
+				Name = "GunDisableLucifer"
+				DurationFrames = 5
+				DisableMove = true
+				DisableRotate = false
+				DisableAttack = false
+				Cancelable = false
+				RequestTriggerLock = true
+				Active = false
+				}
+				{
+				Name = "GunDisableCancellableLucifer"
+				DurationFrames = 12
+				DisableMove = true
+				DisableRotate = false
+				DisableAttack = false
+				Cancelable = true
+				RequestTriggerLock = true
+				Active = false
+				}
+			]
+	  }
+	}
+}

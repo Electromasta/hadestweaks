@@ -1,0 +1,220 @@
+    {
+      Id = "ET_SpearWeapon_Unequipped"
+      DisplayName = "Aspect of Zagreus"
+      Description = "The form in which the eternal spear first revealed itself. \n {!Icons.Bullet}{#PropertyFormat}Damage, Throw Range, & Crit Chance: \Column 380 {#OldFormat}+0% \n\n {#ItalicFormatDark}Its shape reflects its bearer's true self, hiding its own all the while."
+    }
+    {
+      Id = "ET_SpearBaseUpgradeTrait"
+      DisplayName = "Aspect of Zagreus"
+      Description = "The form in which the eternal spear first revealed itself. \n {!Icons.Bullet}{#PropertyFormat}Damage, Throw Range, & Crit Chance: \Column 380 {#UpgradeFormat}{$TooltipData.TooltipDamage:P} \n\n {#ItalicFormatDark}Its shape reflects its bearer's true self, hiding its own all the while."
+    }
+    {
+      Id = "ET_SpearBaseUpgradeTrait_Delta"
+      InheritFrom = "ET_SpearBaseUpgradeTrait"
+      Description = "The form in which the eternal spear first revealed itself. \n {!Icons.Bullet}{#PropertyFormat}Damage, Throw Range, & Crit Chance: \Column 380 {#PreviousFormat}{$TooltipData.DisplayDelta1} \n\n {#ItalicFormatDark}Its shape reflects its bearer's true self, hiding its own all the while."
+    }
+    {
+      Id = "ET_SpearBaseUpgradeTrait_Tray"
+      InheritFrom = "ET_SpearBaseUpgradeTrait"
+      Description = "The form in which the eternal spear first revealed itself. \n {!Icons.Bullet}{#PropertyFormat}Damage, Throw Range, & Crit Chance: \Column 380 {#UpgradeFormat}{$TooltipData.TooltipDamage:P}"
+    }
+    {
+      Id = "ET_ShieldWeapon_Unequipped"
+      DisplayName = "Aspect of Zagreus"
+      Description = "The form in which the shield of chaos first revealed itself. \n {!Icons.Bullet}{#PropertyFormat}Damage and Damage Reduction +%: \Column 380 {#OldFormat}+0 \n\n {#ItalicFormatDark}Sometimes the bone-etched visage shudders as though it means to speak."
+    }
+    {
+      Id = "ET_ShieldBaseUpgradeTrait"
+      DisplayName = "Aspect of Zagreus"
+      Description = "The form in which the shield of chaos first revealed itself.\n {!Icons.Bullet}{#PropertyFormat}Damage and Damage Reduction +%: \Column 380 {#UpgradeFormat}+{$TooltipData.TooltipDamage} \n\n {#ItalicFormatDark}Sometimes the bone-etched visage shudders as though it means to speak."
+    }
+    {
+      Id = "ET_ShieldBaseUpgradeTrait_Delta"
+      InheritFrom = "ET_ShieldBaseUpgradeTrait"
+      Description = "The form in which the shield of chaos first revealed itself.\n {!Icons.Bullet}{#PropertyFormat}Damage and Damage Reduction +%: \Column 380 {#OldFormat}+{$TooltipData.OldTotal1}{!Icons.RightArrow}{#UpgradeFormat}+{$TooltipData.NewTotal1} \n\n {#ItalicFormatDark}Sometimes the bone-etched visage shudders as though it means to speak."
+    }
+    {
+      Id = "ET_ShieldBaseUpgradeTrait_Tray"
+      InheritFrom = "ET_ShieldBaseUpgradeTrait"
+      Description = "The form in which the shield of chaos first revealed itself.\n {!Icons.Bullet}{#PropertyFormat}Damage and Damage Reduction +%: \Column 380 {#UpgradeFormat}+{$TooltipData.TooltipDamage}"
+    }
+    {
+      Id = "ET_BowWeapon_Unequipped"
+      DisplayName = "Aspect of Zagreus"
+      Description = "The form in which the heart-seeking bow first revealed itself. \n {!Icons.Bullet}{#PropertyFormat}{$Keywords.Crit} {$Keywords.Attack} and Dodge Chance: \Column 380 {#OldFormat}+0% \n\n {#ItalicFormatDark}It senses stalwart hearts, mostly to stop them but occasionally to be used."
+    }
+    {
+      Id = "ET_BowBaseUpgradeTrait"
+      DisplayName = "Aspect of Zagreus"
+      Description = "The form in which the heart-seeking bow first revealed itself.\n {!Icons.Bullet}{#PropertyFormat}{$Keywords.Crit} {$Keywords.Attack} and Dodge Chance: \Column 380 {#UpgradeFormat}{$TooltipData.TooltipCritChance:P} \n\n {#ItalicFormatDark}It senses stalwart hearts, mostly to stop them but occasionally to be used."
+    }
+    {
+      Id = "ET_BowBaseUpgradeTrait_Delta"
+      InheritFrom = "ET_BowBaseUpgradeTrait"
+      Description = "The form in which the heart-seeking bow first revealed itself.\n {!Icons.Bullet}{#PropertyFormat}{$Keywords.Crit} {$Keywords.Attack} and Dodge Chance: \Column 380 {#PreviousFormat}{$TooltipData.DisplayDelta1} \n\n {#ItalicFormatDark}It senses stalwart hearts, mostly to stop them but occasionally to be used."
+    }
+    {
+      Id = "ET_BowBaseUpgradeTrait_Tray"
+      InheritFrom = "ET_BowBaseUpgradeTrait"
+      Description = "The form in which the heart-seeking bow first revealed itself.\n {!Icons.Bullet}{#PropertyFormat}{$Keywords.Crit} {$Keywords.Attack} and Dodge Chance: \Column 380 {#UpgradeFormat}{$TooltipData.TooltipCritChance:P}"
+    }
+    {
+      Id = "ET_FistWeapon_Unequipped"
+      DisplayName = "Aspect of Zagreus"
+      Description = "The form in which the twin fists first revealed themselves. \n {!Icons.Bullet}{#PropertyFormat}Dodge Chance and Damage Increase: \Column 380 {#OldFormat}+0% \n\n {#ItalicFormatDark}The twin fists are bound to their bearer, but most fiercely to each other."
+    }
+    {
+      Id = "ET_FistBaseUpgradeTrait"
+      DisplayName = "Aspect of Zagreus"
+      Description = "The form in which the twin fists first revealed themselves. \n {!Icons.Bullet}{#PropertyFormat}Dodge Chance and Damage Increase: \Column 380 {#UpgradeFormat}{$TooltipData.TooltipChance:P} \n\n {#ItalicFormatDark}The twin fists are bound to their bearer, but most fiercely to each other."
+    }
+    {
+      Id = "ET_FistBaseUpgradeTrait_Delta"
+      InheritFrom = "ET_FistBaseUpgradeTrait"
+      Description = "The form in which the twin fists first revealed themselves. \n {!Icons.Bullet}{#PropertyFormat}Dodge Chance and Damage Increase: \Column 380 {#PreviousFormat}{$TooltipData.DisplayDelta1} \n\n {#ItalicFormatDark}The twin fists are bound to their bearer, but most fiercely to each other."
+    }
+    {
+      Id = "ET_FistBaseUpgradeTrait_Tray"
+      InheritFrom = "ET_FistBaseUpgradeTrait"
+      Description = "The form in which the twin fists first revealed themselves. \n {!Icons.Bullet}{#PropertyFormat}Dodge Chance and Damage Increase: \Column 380 {#UpgradeFormat}{$TooltipData.TooltipChance:P}"
+    }
+    {
+      Id = "ET_GunWeapon_Unequipped"
+      DisplayName = "Aspect of Zagreus"
+      Description = "The form in which the adamant rail first revealed itself. \n {!Icons.Bullet}{#PropertyFormat}Bonus Ammo and Damage +%: \Column 380 {#OldFormat}+0 \n\n {#ItalicFormatDark}The image of the noble gryphon belies its true intent but not its power."
+    }
+    {
+      Id = "ET_GunBaseUpgradeTrait"
+      DisplayName = "Aspect of Zagreus"
+      Description = "The form in which the adamant rail first revealed itself.\n {!Icons.Bullet}{#PropertyFormat}Bonus Ammo and Damage +%: \Column 380 {#UpgradeFormat}+{$TooltipData.TooltipAmmo} \n\n {#ItalicFormatDark}The image of the noble gryphon belies its true intent but not its power."
+    }
+    {
+      Id = "ET_GunBaseUpgradeTrait_Delta"
+      InheritFrom = "ET_GunBaseUpgradeTrait"
+      Description = "The form in which the adamant rail first revealed itself.\n {!Icons.Bullet}{#PropertyFormat}Bonus Ammo and Damage +%: \Column 380 {#PreviousFormat}{#OldFormat}+{$TooltipData.OldTotal1}{!Icons.RightArrow}{#UpgradeFormat}+{$TooltipData.NewTotal1} \n\n {#ItalicFormatDark}The image of the noble gryphon belies its true intent but not its power."
+    }
+    {
+      Id = "ET_GunBaseUpgradeTrait_Tray"
+      InheritFrom = "ET_GunBaseUpgradeTrait"
+      Description = "The form in which the adamant rail first revealed itself.\n {!Icons.Bullet}{#PropertyFormat}Bonus Ammo and Damage +%: \Column 380 {#UpgradeFormat}+{$TooltipData.TooltipAmmo}"
+    }
+    {
+      Id = "ET_ForceZeusBoonTrait"
+      DisplayName = "Thunder Signet"
+      Description = "The next {$Keywords.GodBoon} you find will be from {#BoldFormat}Zeus{#PreviousFormat}. His blessings have {#AltUpgradeFormat}{$TooltipData.TooltipBonusChance:P} {#PreviousFormat} chance to be {#RareFormat}Rare {#PreviousFormat}, {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceEpic:P} {#PreviousFormat} chance to be {#EpicFormat}Epic {#PreviousFormat}, and {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceLegendary:P} {#PreviousFormat} chance to be {#LegendaryFormat}Legendary {#PreviousFormat}."
+    }
+    {
+      Id = "ET_ForceZeusBoonTrait_Rack"
+      InheritFrom = "ET_ForceZeusBoonTrait"
+      Description = "The next {$Keywords.GodBoon} you find will be from {#BoldFormat}Zeus{#PreviousFormat}. His blessings have {#AltUpgradeFormat}{$TooltipData.TooltipBonusChance:P} {#PreviousFormat} chance to be {#RareFormat}Rare {#PreviousFormat}, {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceEpic:P} {#PreviousFormat} chance to be {#EpicFormat}Epic {#PreviousFormat}, and {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceLegendary:P} {#PreviousFormat} chance to be {#LegendaryFormat}Legendary {#PreviousFormat}. \n\n {#AwardFlavorFormat}{$TooltipData.SignoffText}"
+    }
+    {
+      Id = "ET_ForceZeusBoonTrait_Inactive"
+      DisplayName = "Thunder Signet"
+      Description = "Zeus' blessings have {#AltUpgradeFormat}{$TooltipData.TooltipBonusChance:P} {#PreviousFormat} chance to be {#RareFormat}Rare {#PreviousFormat}, {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceEpic:P} {#PreviousFormat} chance to be {#EpicFormat}Epic {#PreviousFormat}, and {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceLegendary:P} {#PreviousFormat} chance to be {#LegendaryFormat}Legendary {#PreviousFormat}."
+    }
+    {
+      Id = "ET_ForcePoseidonBoonTrait"
+      DisplayName = "Conch Shell"
+      Description = "The next {$Keywords.GodBoon} you find will be from {#BoldFormat}Poseidon{#PreviousFormat}. His blessings have {#AltUpgradeFormat}{$TooltipData.TooltipBonusChance:P} {#PreviousFormat} chance to be {#RareFormat}Rare {#PreviousFormat}, {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceEpic:P} {#PreviousFormat} chance to be {#EpicFormat}Epic {#PreviousFormat}, and {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceLegendary:P} {#PreviousFormat} chance to be {#LegendaryFormat}Legendary {#PreviousFormat}."
+    }
+    {
+      Id = "ET_ForcePoseidonBoonTrait_Rack"
+      InheritFrom = "ET_ForcePoseidonBoonTrait"
+      Description = "The next {$Keywords.GodBoon} you find will be from {#BoldFormat}Poseidon{#PreviousFormat}. His blessings have {#AltUpgradeFormat}{$TooltipData.TooltipBonusChance:P} {#PreviousFormat} chance to be {#RareFormat}Rare {#PreviousFormat}, {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceEpic:P} {#PreviousFormat} chance to be {#EpicFormat}Epic {#PreviousFormat}, and {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceLegendary:P} {#PreviousFormat} chance to be {#LegendaryFormat}Legendary {#PreviousFormat}. \n\n {#AwardFlavorFormat}{$TooltipData.SignoffText}"
+    }
+    {
+      Id = "ET_ForcePoseidonBoonTrait_Inactive"
+      DisplayName = "Conch Shell"
+      Description = "Poseidon's blessings have {#AltUpgradeFormat}{$TooltipData.TooltipBonusChance:P} {#PreviousFormat} chance to be {#RareFormat}Rare {#PreviousFormat}, {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceEpic:P} {#PreviousFormat} chance to be {#EpicFormat}Epic {#PreviousFormat}, and {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceLegendary:P} {#PreviousFormat} chance to be {#LegendaryFormat}Legendary {#PreviousFormat}."
+    }
+    {
+      Id = "ET_ForceAthenaBoonTrait"
+      DisplayName = "Owl Pendant"
+      Description = "The next {$Keywords.GodBoon} you find will be from {#BoldFormat}Athena{#PreviousFormat}. Her blessings have {#AltUpgradeFormat}{$TooltipData.TooltipBonusChance:P} {#PreviousFormat} chance to be {#RareFormat}Rare {#PreviousFormat}, {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceEpic:P} {#PreviousFormat} chance to be {#EpicFormat}Epic {#PreviousFormat}, and {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceLegendary:P} {#PreviousFormat} chance to be {#LegendaryFormat}Legendary {#PreviousFormat}."
+    }
+    {
+      Id = "ET_ForceAthenaBoonTrait_Rack"
+      InheritFrom = "ET_ForceAthenaBoonTrait"
+      Description = "The next {$Keywords.GodBoon} you find will be from {#BoldFormat}Athena{#PreviousFormat}. Her blessings have {#AltUpgradeFormat}{$TooltipData.TooltipBonusChance:P} {#PreviousFormat} chance to be {#RareFormat}Rare {#PreviousFormat}, {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceEpic:P} {#PreviousFormat} chance to be {#EpicFormat}Epic {#PreviousFormat}, and {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceLegendary:P} {#PreviousFormat} chance to be {#LegendaryFormat}Legendary {#PreviousFormat}. \n\n {#AwardFlavorFormat}{$TooltipData.SignoffText}"
+    }
+    {
+      Id = "ET_ForceAthenaBoonTrait_Inactive"
+      DisplayName = "Owl Pendant"
+      Description = "Athena's blessings have {#AltUpgradeFormat}{$TooltipData.TooltipBonusChance:P} {#PreviousFormat} chance to be {#RareFormat}Rare {#PreviousFormat}, {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceEpic:P} {#PreviousFormat} chance to be {#EpicFormat}Epic {#PreviousFormat}, and {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceLegendary:P} {#PreviousFormat} chance to be {#LegendaryFormat}Legendary {#PreviousFormat}."
+    }
+    {
+      Id = "ET_ForceAphroditeBoonTrait"
+      DisplayName = "Eternal Rose"
+      Description = "The next {$Keywords.GodBoon} you find will be from {#BoldFormat}Aphrodite{#PreviousFormat}. Her blessings have {#AltUpgradeFormat}{$TooltipData.TooltipBonusChance:P} {#PreviousFormat} chance to be {#RareFormat}Rare {#PreviousFormat}, {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceEpic:P} {#PreviousFormat} chance to be {#EpicFormat}Epic {#PreviousFormat}, and {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceLegendary:P} {#PreviousFormat} chance to be {#LegendaryFormat}Legendary {#PreviousFormat}."
+    }
+    {
+      Id = "ET_ForceAphroditeBoonTrait_Rack"
+      InheritFrom = "ET_ForceAphroditeBoonTrait"
+      Description = "The next {$Keywords.GodBoon} you find will be from {#BoldFormat}Aphrodite{#PreviousFormat}. Her blessings have {#AltUpgradeFormat}{$TooltipData.TooltipBonusChance:P} {#PreviousFormat} chance to be {#RareFormat}Rare {#PreviousFormat}, {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceEpic:P} {#PreviousFormat} chance to be {#EpicFormat}Epic {#PreviousFormat}, and {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceLegendary:P} {#PreviousFormat} chance to be {#LegendaryFormat}Legendary {#PreviousFormat}. \n\n {#AwardFlavorFormat}{$TooltipData.SignoffText}"
+    }
+    {
+      Id = "ET_ForceAphroditeBoonTrait_Inactive"
+      DisplayName = "Eternal Rose"
+      Description = "Aphrodite's blessings have {#AltUpgradeFormat}{$TooltipData.TooltipBonusChance:P} {#PreviousFormat} chance to be {#RareFormat}Rare {#PreviousFormat}, {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceEpic:P} {#PreviousFormat} chance to be {#EpicFormat}Epic {#PreviousFormat}, and {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceLegendary:P} {#PreviousFormat} chance to be {#LegendaryFormat}Legendary {#PreviousFormat}."
+    }
+    {
+      Id = "ET_ForceAresBoonTrait"
+      DisplayName = "Blood-filled Vial"
+      Description = "The next {$Keywords.GodBoon} you find will be from {#BoldFormat}Ares{#PreviousFormat}. His blessings have {#AltUpgradeFormat}{$TooltipData.TooltipBonusChance:P} {#PreviousFormat} chance to be {#RareFormat}Rare {#PreviousFormat}, {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceEpic:P} {#PreviousFormat} chance to be {#EpicFormat}Epic {#PreviousFormat}, and {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceLegendary:P} {#PreviousFormat} chance to be {#LegendaryFormat}Legendary {#PreviousFormat}."
+    }
+    {
+      Id = "ET_ForceAresBoonTrait_Rack"
+      InheritFrom = "ET_ForceAresBoonTrait"
+      Description = "The next {$Keywords.GodBoon} you find will be from {#BoldFormat}Ares{#PreviousFormat}. His blessings have {#AltUpgradeFormat}{$TooltipData.TooltipBonusChance:P} {#PreviousFormat} chance to be {#RareFormat}Rare {#PreviousFormat}, {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceEpic:P} {#PreviousFormat} chance to be {#EpicFormat}Epic {#PreviousFormat}, and {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceLegendary:P} {#PreviousFormat} chance to be {#LegendaryFormat}Legendary {#PreviousFormat}. \n\n {#AwardFlavorFormat}{$TooltipData.SignoffText}"
+    }
+    {
+      Id = "ET_ForceAresBoonTrait_Inactive"
+      DisplayName = "Blood-filled Vial"
+      Description = "Ares' blessings have {#AltUpgradeFormat}{$TooltipData.TooltipBonusChance:P} {#PreviousFormat} chance to be {#RareFormat}Rare {#PreviousFormat}, {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceEpic:P} {#PreviousFormat} chance to be {#EpicFormat}Epic {#PreviousFormat}, and {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceLegendary:P} {#PreviousFormat} chance to be {#LegendaryFormat}Legendary {#PreviousFormat}."
+    }
+    {
+      Id = "ET_ForceArtemisBoonTrait"
+      DisplayName = "Adamant Arrowhead"
+      Description = "The next {$Keywords.GodBoon} you find will be from {#BoldFormat}Artemis{#PreviousFormat}. Her blessings have {#AltUpgradeFormat}{$TooltipData.TooltipBonusChance:P} {#PreviousFormat} chance to be {#RareFormat}Rare {#PreviousFormat}, {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceEpic:P} {#PreviousFormat} chance to be {#EpicFormat}Epic {#PreviousFormat}, and {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceLegendary:P} {#PreviousFormat} chance to be {#LegendaryFormat}Legendary {#PreviousFormat}."
+    }
+    {
+      Id = "ET_ForceArtemisBoonTrait_Rack"
+      InheritFrom = "ET_ForceArtemisBoonTrait"
+      Description = "The next {$Keywords.GodBoon} you find will be from {#BoldFormat}Artemis{#PreviousFormat}. Her blessings have {#AltUpgradeFormat}{$TooltipData.TooltipBonusChance:P} {#PreviousFormat} chance to be {#RareFormat}Rare {#PreviousFormat}, {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceEpic:P} {#PreviousFormat} chance to be {#EpicFormat}Epic {#PreviousFormat}, and {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceLegendary:P} {#PreviousFormat} chance to be {#LegendaryFormat}Legendary {#PreviousFormat}. \n\n {#AwardFlavorFormat}{$TooltipData.SignoffText}"
+    }
+    {
+      Id = "ET_ForceArtemisBoonTrait_Inactive"
+      DisplayName = "Adamant Arrowhead"
+      Description = "Artemis' blessings have {#AltUpgradeFormat}{$TooltipData.TooltipBonusChance:P} {#PreviousFormat} chance to be {#RareFormat}Rare {#PreviousFormat}, {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceEpic:P} {#PreviousFormat} chance to be {#EpicFormat}Epic {#PreviousFormat}, and {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceLegendary:P} {#PreviousFormat} chance to be {#LegendaryFormat}Legendary {#PreviousFormat}."
+    }
+    {
+      Id = "ET_ForceDionysusBoonTrait"
+      DisplayName = "Overflowing Cup"
+      Description = "The next {$Keywords.GodBoon} you find will be from {#BoldFormat}Dionysus{#PreviousFormat}. His blessings have {#AltUpgradeFormat}{$TooltipData.TooltipBonusChance:P} {#PreviousFormat} chance to be {#RareFormat}Rare {#PreviousFormat}, {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceEpic:P} {#PreviousFormat} chance to be {#EpicFormat}Epic {#PreviousFormat}, and {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceLegendary:P} {#PreviousFormat} chance to be {#LegendaryFormat}Legendary {#PreviousFormat}."
+    }
+    {
+      Id = "ET_ForceDionysusBoonTrait_Rack"
+      InheritFrom = "ET_ForceDionysusBoonTrait"
+      Description = "The next {$Keywords.GodBoon} you find will be from {#BoldFormat}Dionysus{#PreviousFormat}. His blessings have {#AltUpgradeFormat}{$TooltipData.TooltipBonusChance:P} {#PreviousFormat} chance to be {#RareFormat}Rare {#PreviousFormat}, {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceEpic:P} {#PreviousFormat} chance to be {#EpicFormat}Epic {#PreviousFormat}, and {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceLegendary:P} {#PreviousFormat} chance to be {#LegendaryFormat}Legendary {#PreviousFormat}. \n\n {#AwardFlavorFormat}{$TooltipData.SignoffText}"
+    }
+    {
+      Id = "ET_ForceDionysusBoonTrait_Inactive"
+      DisplayName = "Overflowing Cup"
+      Description = "Dionysus' blessings have {#AltUpgradeFormat}{$TooltipData.TooltipBonusChance:P} {#PreviousFormat} chance to be {#RareFormat}Rare {#PreviousFormat}, {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceEpic:P} {#PreviousFormat} chance to be {#EpicFormat}Epic {#PreviousFormat}, and {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceLegendary:P} {#PreviousFormat} chance to be {#LegendaryFormat}Legendary {#PreviousFormat}."
+    }
+    {
+      Id = "ET_ForceDemeterBoonTrait"
+      DisplayName = "Frostbitten Horn"
+      Description = "The next {$Keywords.GodBoon} you find will be from {#BoldFormat}Demeter{#PreviousFormat}. Her blessings have {#AltUpgradeFormat}{$TooltipData.TooltipBonusChance:P} {#PreviousFormat} chance to be {#RareFormat}Rare {#PreviousFormat}, {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceEpic:P} {#PreviousFormat} chance to be {#EpicFormat}Epic {#PreviousFormat}, and {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceLegendary:P} {#PreviousFormat} chance to be {#LegendaryFormat}Legendary {#PreviousFormat}."
+    }
+    {
+      Id = "ET_ForceDemeterBoonTrait_Rack"
+      InheritFrom = "ET_ForceDemeterBoonTrait"
+      Description = "The next {$Keywords.GodBoon} you find will be from {#BoldFormat}Demeter{#PreviousFormat}. Her blessings have {#AltUpgradeFormat}{$TooltipData.TooltipBonusChance:P} {#PreviousFormat} chance to be {#RareFormat}Rare {#PreviousFormat}, {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceEpic:P} {#PreviousFormat} chance to be {#EpicFormat}Epic {#PreviousFormat}, and {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceLegendary:P} {#PreviousFormat} chance to be {#LegendaryFormat}Legendary {#PreviousFormat}. \n\n {#AwardFlavorFormat}{$TooltipData.SignoffText}"
+    }
+    {
+      Id = "ET_ForceDemeterBoonTrait_Inactive"
+      DisplayName = "Frostbitten Horn"
+      Description = "Demeter's blessings have {#AltUpgradeFormat}{$TooltipData.TooltipBonusChance:P} {#PreviousFormat} chance to be {#RareFormat}Rare {#PreviousFormat}, {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceEpic:P} {#PreviousFormat} chance to be {#EpicFormat}Epic {#PreviousFormat}, and {#AltUpgradeFormat}{$TooltipData.TooltipBonusChanceLegendary:P} {#PreviousFormat} chance to be {#LegendaryFormat}Legendary {#PreviousFormat}."
+    }

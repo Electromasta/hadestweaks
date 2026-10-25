@@ -40,4 +40,8 @@ luac.out
 *.x86_64
 *.hex
 
+# Build output
+# dist/
 
+# Unmodded game files saved by tools/build.py
+vanilla/
